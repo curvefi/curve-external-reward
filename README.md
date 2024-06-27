@@ -6,7 +6,32 @@ This repository's configuration files contain all metadata for projects to give 
 
 ## Reward metadata structure
 
-### Each reward metadata must have the following properties:
+### Active and Upcomming Campaings
+
+Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve-external-rewards/blob/main/campaign-list.json), and date is between start and end are shown in the front end.
+
+### Each campaing in the campaign-list the must have the following properties:
+
+- `start`: start of the campaing, as utc timestamp
+- `end`: start of the campaing, as utc timestamp, campaing should never be longer than 1 year
+- `campaign`: file with the data for the campaing
+
+### Example:
+
+```json
+[{
+    "start": "1719498386", // Thursday, June 27, 2024 2:20:00 PM
+    "end": "1720000000", // Wednesday, July 3, 2024 9:46:40 AM
+    "campaign": "2024-06-27_points-for-lp.json"
+},{
+    "start": "1719498386", // Thursday, June 27, 2024 2:20:00 PM
+    "end": "1720000000", // Wednesday, July 3, 2024 9:46:40 AM
+    "campaign": "2024-07-01_points-for-lp.json"
+}]
+```
+
+
+### Each sinlge campaing file in the folder `campaings` must have the following properties:
 
 - `name`: Name of the reward campaign
 - `description`: One-sentence description, not too long
