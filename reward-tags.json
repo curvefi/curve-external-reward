@@ -1,10 +1,14 @@
-[{
-  "id": "points",
-  "displayName": "Points"
-}, {
-  "id": "merkle",
-  "displayName": "Merkle"
-}, {
+[
+  {
+    "id": "points",
+    "displayName": "Points"
+  }, 
+  {
+    "id": "merkle",
+    "displayName": "Merkle"
+  }, 
+  {
     "id": "tokens",
     "displayName": "Tokens"
-]}
+  }
+]
