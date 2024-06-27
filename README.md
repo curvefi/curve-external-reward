@@ -8,7 +8,7 @@ This repository's configuration files contain all metadata for projects to give 
 
 ### Active and Upcomming Campaings
 
-Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve-external-rewards/blob/main/campaign-list.json), and date is between start and end are shown in the front end.
+Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve-external-reward/blob/main/campaign-list.json), and date is between start and end are shown in the front end.
 
 ### Each campaing in the campaign-list the must have the following properties:
 
@@ -20,12 +20,12 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 
 ```json
 [{
-    "start": "1719498386", // Thursday, June 27, 2024 2:20:00 PM
-    "end": "1720000000", // Wednesday, July 3, 2024 9:46:40 AM
+    "start": "1719498386",
+    "end": "1720000000",
     "campaign": "2024-06-27_points-for-lp.json"
 },{
-    "start": "1719498386", // Thursday, June 27, 2024 2:20:00 PM
-    "end": "1720000000", // Wednesday, July 3, 2024 9:46:40 AM
+    "start": "1719498386",
+    "end": "1720000000",
     "campaign": "2024-07-01_points-for-lp.json"
 }]
 ```
