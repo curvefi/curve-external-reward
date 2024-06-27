@@ -19,15 +19,18 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 ### Example:
 
 ```json
-[{
+[
+  {
     "start": "1719498386",
     "end": "1770000000",
     "campaign": "2024-06-27_points-for-lp.json"
-},{
+  },
+  {
     "start": "1719498386",
     "end": "1770000000",
     "campaign": "2024-07-01_points-for-lp.json"
-}]
+  }
+]
 ```
 
 
