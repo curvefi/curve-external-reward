@@ -2,7 +2,7 @@
 
 This repository's configuration files contain all metadata for projects to give external rewards for users of curve.
 
-# This is a draft for a poosible data structure, this not production ready!
+# This is currently a draft for a poosible data structure, this not production ready!
 
 ## Reward metadata structure
 
@@ -21,11 +21,11 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 ```json
 [{
     "start": "1719498386",
-    "end": "1720000000",
+    "end": "1770000000",
     "campaign": "2024-06-27_points-for-lp.json"
 },{
     "start": "1719498386",
-    "end": "1720000000",
+    "end": "1770000000",
     "campaign": "2024-07-01_points-for-lp.json"
 }]
 ```
