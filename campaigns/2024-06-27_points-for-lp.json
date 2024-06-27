@@ -1,0 +1,33 @@
+{
+"name": "YieldNest",
+"description": "YieldNest Points on Curve Pools",
+"imageId": "2024-06-27_points-for-lp.png",
+"url": "https://yieldnest.finance/dashboard/",
+"API": "https://yieldnest.finance/api/apy/",
+"tags": ["points"],
+"pools": [{
+    "id": "1",
+    "timestampStart": "0",
+    "timestampEnd": "0",
+    "address": "0x0",
+    "gauge": "0x0",
+    "network": ["ethereum"],
+    "dashboardLink": "?",
+    "multiplier": "1",
+    "APYLink": "/apy/0x0",
+    "APRLink": "/apr/0x0",
+    "amount": "0"
+},{
+    "id": "2",
+    "timestampStart": "0",
+    "timestampEnd": "0",
+    "address": "0x0",
+    "gauge": "0x0",
+    "network": ["ethereum"],
+    "dashboardLink": "?",
+    "multiplier": "1",
+    "APYLink": "/apy/0x0",
+    "APRLink": "/apr/0x0",
+    "amount": "0"
+}]
+}
