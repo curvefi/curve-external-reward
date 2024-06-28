@@ -4,7 +4,8 @@
   "imageId": "imageforpointcampaing.png",
   "url": "https://yieldnest.finance/dashboard/",
   "tags": ["points"],
-  "pools": [{
+  "pools": [
+    {
       "id": "yourinternalid",
       "start": "0",
       "end": "1770000000",
@@ -12,9 +13,10 @@
       "gauge": "0x0",
       "network": ["ethereum"],
       "dashboardLink": "?",
-      "multiplier": "1",
-  }],
-  {
+      "multiplier": "1"
+    }
+  ],
+  "campaignInfo": {
     "id": "yourinternalid",
     "start": "0",
     "end": "1770000000",
@@ -22,6 +24,6 @@
     "gauge": "0x0",
     "network": ["ethereum"],
     "dashboardLink": "?",
-    "multiplier": "1",
+    "multiplier": "1"
   }
 }
