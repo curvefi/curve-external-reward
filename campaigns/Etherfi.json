@@ -4,7 +4,6 @@
   "description": "Points for providing liquidity.",
   "platformImageId": "etherfi.png",
   "dashboardLink": "https://app.ether.fi/defi",
-  "tags": ["points"],
   "pools": [
     {
       "id": "null",
@@ -15,7 +14,7 @@
       "gaugeAddress": "0x0bfb387b87e8bf173a10a7dcf786b0b7875f6771",
       "network": ["ethereum"],
       "multiplier": "2",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -26,7 +25,7 @@
       "gaugeAddress": "0x053df3e4d0ced9a3bf0494f97e83ce1f13bdc0e2",
       "network": ["ethereum"],
       "multiplier": "3",
-      "tags": "points"
+      "tag": "points"
     }
   ]
 }

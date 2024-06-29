@@ -4,7 +4,7 @@
   "description": "Points for providing liquidity.",
   "platformImageId": "etherfi.png",
   "dashboardLink": "https://app.renzoprotocol.com/defi",
-  "tags": ["points"],
+  "tag": ["points"],
   "pools": [
     {
       "id": "null",
@@ -15,7 +15,7 @@
       "gaugeAddress": "0x4597a888ad6480440529f239c742fc33db497a53",
       "network": ["bsc"],
       "multiplier": "4",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -26,7 +26,7 @@
       "gaugeAddress": "0xe8d52f614fb6c11760b2d1e2bf7c7e8b4c5c0438",
       "network": ["ethereum"],
       "multiplier": "3",
-      "tags": "points"
+      "tag": "points"
     }
   ]
 }

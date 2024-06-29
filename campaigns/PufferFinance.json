@@ -4,7 +4,6 @@
   "description": "Points for providing liquidity.",
   "platformImageId": "puffer.png",
   "dashboardLink": "https://quest.puffer.fi/defi",
-  "tags": ["points"],
   "pools": [
     {
       "id": "null",
@@ -15,7 +14,7 @@
       "gaugeAddress": "0x0bfb387b87e8bf173a10a7dcf786b0b7875f6771",
       "network": ["ethereum"],
       "multiplier": "2",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -26,7 +25,7 @@
       "gaugeAddress": "0x0",
       "network": ["ethereum"],
       "multiplier": "2",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -37,7 +36,7 @@
       "gaugeAddress": "0xf4fa0c7833e778fb9fb392ec36217e17c9133976",
       "network": ["ethereum"],
       "multiplier": "2",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -48,7 +47,7 @@
       "gaugeAddress": "0x294280254e1c8bcf56f8618623ec9235e8415633",
       "network": ["ethereum"],
       "multiplier": "2",
-      "tags": "points"
+      "tag": "points"
     }
   ]
 }

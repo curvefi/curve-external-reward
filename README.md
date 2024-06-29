@@ -12,7 +12,7 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 
 ### Each campaing in the campaign-list the must have the following properties:
 
-- `campaign`: file with the data for the campaing
+- `campaign`: File with the data for the campaing
 
 ### Example:
 
@@ -34,18 +34,17 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 - `description`: One-sentence description, not too long
 - `imageId`: Filename of the app/tool's logo in the [`curve-assets`](https://github.com/curvefi/curve-assets/tree/main/platforms) repo
 - "dashboardLink": Link to protocol dashboard
-- `tags`: Array of relevant tags (any of the tags ids listed here: [`rewards-tags.json`](https://github.com/curvefi/curve-external-rewards/blob/main/rewards-tags.json))
 - `networks`: Array of relevant networks
 - pools: Array of relevant pools/markets
 
-  - `id`: internal id for you, or `null`
-  - `poolId`: curve pool/market id (found in curve.fi url)
-  - `campaignStart`: start of the rewards, as utc timestamp
-  - `campaignEnd`: end of the rewards, as utc timestamp
-  - "poolAddress": address of the pool/market
-  - "gaugeAddress": address of the gauge, or `null`
-  - "network": network of the pool/market
-  - "multiplier": multiplier, or `null`
+  - `id`: Internal id for you, or `null`
+  - `poolId`: Curve pool/market id (found in curve.fi url)
+  - `campaignStart`: Start of the rewards, as utc timestamp
+  - `campaignEnd`: End of the rewards, as utc timestamp
+  - "poolAddress": Address of the pool/market
+  - "gaugeAddress": Address of the gauge, or `null`
+  - "network": Network of the pool/market
+  - "multiplier": Multiplier, or `null`
   - "tags": Array of pool/market specific tags (any of the tags ids listed here: [`rewards-tags.json`](https://github.com/curvefi/curve-external-rewards/blob/main/rewards-tags.json))
 
 ### Example:
@@ -57,7 +56,6 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
   "description": "Points for liqudity provider of USDX",
   "platformImageId": "points_campaign_icon.png",
   "dashboardLink": "https://points.finance/dashboard/",
-  "tags": ["points"],
   "pools": [
     {
       "id": "null",

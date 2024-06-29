@@ -4,7 +4,7 @@
   "description": "YieldNest Points on Curve Pools",
   "platformImageId": "imageforpointcampaing.png",
   "dashboardLink": "https://yieldnest.finance/dashboard/",
-  "tags": ["points"],
+  "tag": ["points"],
   "pools": [
     {
       "id": "null",
@@ -15,7 +15,7 @@
       "gaugeAddress": "0x0",
       "network": ["ethereum"],
       "multiplier": "1",
-      "tags": "points"
+      "tag": "points"
     }
   ]
 }

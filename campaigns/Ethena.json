@@ -4,7 +4,6 @@
   "description": "Points for providing liquidity.",
   "platformImageId": "ethena.png",
   "dashboardLink": "https://app.ethena.fi/liquidity",
-  "tags": ["points"],
   "pools": [
     {
       "id": "null",
@@ -15,7 +14,7 @@
       "gaugeAddress": "0x0",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -26,7 +25,7 @@
       "gaugeAddress": "0x04e80db3f84873e4132b221831af1045d27f140f",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -37,7 +36,7 @@
       "gaugeAddress": "0xf16b07241bbbf676324fadee6bd6611423faa4ae",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -48,7 +47,7 @@
       "gaugeAddress": "0xaa8b8643a29cecb5de7b4ea115d04384c041423f",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -59,7 +58,7 @@
       "gaugeAddress": "0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -70,7 +69,7 @@
       "gaugeAddress": "0x8ed00833be7342608fafdbf776a696afbfeaae96",
       "network": ["ethereum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -81,7 +80,7 @@
       "gaugeAddress": "0x0",
       "network": ["arbitrum"],
       "multiplier": "30",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -92,7 +91,7 @@
       "gaugeAddress": "0xeaed59025d6cf575238a9b4905aca11e000baad0",
       "network": ["ethereum"],
       "multiplier": "20",
-      "tags": "points"
+      "tag": "points"
     },
     {
       "id": "null",
@@ -103,7 +102,7 @@
       "gaugeAddress": "0xae1680ef5efc2486e73d8d5d0f8a8db77da5774e",
       "network": ["ethereum"],
       "multiplier": "5",
-      "tags": "points"
+      "tag": "points"
     }
   ]
 }
