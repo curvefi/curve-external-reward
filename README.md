@@ -12,8 +12,6 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 
 ### Each campaing in the campaign-list the must have the following properties:
 
-- `start`: start of the campaing, as utc timestamp
-- `end`: start of the campaing, as utc timestamp, campaing should never be longer than 1 year
 - `campaign`: file with the data for the campaing
 
 ### Example:
@@ -21,59 +19,58 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 ```json
 [
   {
-    "start": "1719498386",
-    "end": "1770000000",
-    "campaign": "2024-06-27_points-for-lp.json"
+    "campaign": "ProtocolName.json"
   },
   {
-    "start": "1719498386",
-    "end": "1770000000",
-    "campaign": "2024-07-01_points-for-lp.json"
+    "campaign": "ProtocolName.json"
   }
 ]
 ```
 
-
 ### Each single campaing file in the folder `campaings` must have the following properties:
 
-- `name`: Name of the reward campaign
+- `campaignName`: Name of the reward campaign
+- `platform`: Name of the platform
 - `description`: One-sentence description, not too long
 - `imageId`: Filename of the app/tool's logo in the [`curve-assets`](https://github.com/curvefi/curve-assets/tree/main/platforms) repo
-- `appUrl`: Link to the app/tool's Dashboard, or `null`
-- `tags`: Array of relevant tags (any of the tags ids listed here: [`rewards-tags.json`](https://github.com/curvefi/curve-external-rewards/blob/main/rewards-tags.json)
+- "dashboardLink": Link to protocol dashboard
+- `tags`: Array of relevant tags (any of the tags ids listed here: [`rewards-tags.json`](https://github.com/curvefi/curve-external-rewards/blob/main/rewards-tags.json))
 - `networks`: Array of relevant networks
-- pools: Array of relevant pools
+- pools: Array of relevant pools/markets
 
   - `id`: internal id for you, or `null`
-  - `start`: start of the rewards, as utc timestamp
-  - `end`: end of the rewards, as utc timestamp
-  - "address": address of the pool
-  - "gauge": address of the gauge, or `null`
-  - "network": network of the reward
-  - "dashboardLink": will be added to the appUrl
+  - `poolId`: curve pool/market id (found in curve.fi url)
+  - `campaignStart`: start of the rewards, as utc timestamp
+  - `campaignEnd`: end of the rewards, as utc timestamp
+  - "poolAddress": address of the pool/market
+  - "gaugeAddress": address of the gauge, or `null`
+  - "network": network of the pool/market
   - "multiplier": multiplier, or `null`
-
+  - "tags": Array of pool/market specific tags (any of the tags ids listed here: [`rewards-tags.json`](https://github.com/curvefi/curve-external-rewards/blob/main/rewards-tags.json))
 
 ### Example:
 
 ```json
 {
-  "name": "Points for LP",
+  "campaignName": "Campaign Name",
+  "platform": "Platform Name",
   "description": "Points for liqudity provider of USDX",
-  "imageId": "points_campaign_icon.png",
-  "url": "https://points.finance/dashboard/",
+  "platformImageId": "points_campaign_icon.png",
+  "dashboardLink": "https://points.finance/dashboard/",
   "tags": ["points"],
-  "networks" ["ethereum"],
-  "pools": [{
-    "id": "1",
-    "timestampStart": "0",
-    "timestampEnd": "0",
-    "address": "0x0",
-    "gauge": "0x0",
-    "network": ["ethereum"],
-    "dashboardLink": "?",
-    "multiplier": "1x",
-  }]
+  "pools": [
+    {
+      "id": "null",
+      "poolId": "factory-stable-ng-1",
+      "campaignStart": "0",
+      "campaignEnd": "0",
+      "poolAddress": "0x0",
+      "gaugeAddress": "0x0",
+      "network": ["ethereum"],
+      "multiplier": "1x",
+      "tags": ["points"]
+    }
+  ]
 }
 ```
 
@@ -83,10 +80,9 @@ Conditions the project must meet in order to be added to the list of rewards:
 
 1. It must fit the ["Curve external rewards" definition](https://github.com/curvefi/curve-external-rewards/tree/main#curve-rewards)
 
-
 2. It must be live
 
 Easy two-step process for your reward to appear on Curve's websites:
 
 1. You'll need to upload the app/tool's logo to the [`curve-assets` repo](https://github.com/curvefi/curve-assets/tree/main/platforms) (submit a PR there, we'll be notified and will review and merge it). Either an SVG image, or a PNG/JPG of at least 200x200 and at most 500x500 px.
-2. Submit a PR in this very repository, adding the app/tool's metadata as described above in the [`campaign-list.json`](https://github.com/curvefi/curve-external-rewards/blob/main/campaign-list.json) file and create a new file in the `campaings` folder for your ampaign. You don't have to wait for (1) to be merged to do this. We'll also be notified and will review and merge your PR. *Please provide a very short explanation of how the submitted project fits into the ["Curve external rewards" definition](https://github.com/curvefi/curve-external-rewards/tree/main#curve-rewards), if it isn't immediately obvious from the project's metadata in your PR.*
+2. Submit a PR in this very repository, adding the app/tool's metadata as described above in the [`campaign-list.json`](https://github.com/curvefi/curve-external-rewards/blob/main/campaign-list.json) file and create a new file in the `campaings` folder for your ampaign. You don't have to wait for (1) to be merged to do this. We'll also be notified and will review and merge your PR. _Please provide a very short explanation of how the submitted project fits into the ["Curve external rewards" definition](https://github.com/curvefi/curve-external-rewards/tree/main#curve-rewards), if it isn't immediately obvious from the project's metadata in your PR._
