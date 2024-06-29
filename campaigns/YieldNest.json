@@ -1,0 +1,19 @@
+{
+  "platform": "YieldNest",
+  "description": "YieldNest Points on Curve Pools",
+  "platformImageId": "imageforpointcampaing.png",
+  "dashboardLink": "https://yieldnest.finance/dashboard/",
+  "tags": ["points"],
+  "pools": [
+    {
+      "poolId": "yourinternalid",
+      "campaignStart": "0",
+      "campaignEnd": "1770000000",
+      "poolAddress": "0x0",
+      "gaugeAddress": "0x0",
+      "network": ["ethereum"],
+      "multiplier": "1",
+      "tags": "points"
+    }
+  ]
+}
