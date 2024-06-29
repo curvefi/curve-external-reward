@@ -1,11 +1,13 @@
 {
+  "campaignName": "Ethena",
   "platform": "Ethena",
-  "description": "Ethena SATS boost",
+  "description": "Points for providing liquidity.",
   "platformImageId": "ethena.png",
   "dashboardLink": "https://app.ethena.fi/liquidity",
   "tags": ["points"],
   "pools": [
     {
+      "id": "null",
       "poolId": "factory-stable-ng-166",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -16,6 +18,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-12",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -26,6 +29,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-100",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -36,6 +40,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-11",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -46,6 +51,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-35",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -56,6 +62,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-105",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -66,6 +73,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-52",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -76,6 +84,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "one-way-market-14",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -86,6 +95,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "one-way-market-11",
       "campaignStart": "0",
       "campaignEnd": "1770000000",

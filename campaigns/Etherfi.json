@@ -1,11 +1,13 @@
 {
+  "campaignName": "Ether.fi",
   "platform": "Ether.fi",
-  "description": "Ether.fi boosted pool",
+  "description": "Points for providing liquidity.",
   "platformImageId": "etherfi.png",
   "dashboardLink": "https://app.ether.fi/defi",
   "tags": ["points"],
   "pools": [
     {
+      "id": "null",
       "poolId": "factory-stable-ng-80",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -16,6 +18,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-157",
       "campaignStart": "0",
       "campaignEnd": "1770000000",

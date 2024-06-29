@@ -1,12 +1,17 @@
 [
   {
-    "start": "1719498386",
-    "end": "1719498386",
-    "campaign": "2024-06-27_points-for-lp.json"
+    "campaign": "Ethena.json"
   },
   {
-    "start": "1719498386",
-    "end": "1719498386",
-    "campaign": "2024-06-27_points-for-lp.json"
+    "campaign": "Etherfi.json"
+  },
+  {
+    "campaign": "PufferFinance.json"
+  },
+  {
+    "campaign": "Renzo.json"
+  },
+  {
+    "campaign": "YieldNest.json"
   }
 ]

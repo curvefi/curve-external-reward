@@ -1,4 +1,5 @@
 {
+  "campaignName": "YieldNest Points",
   "platform": "YieldNest",
   "description": "YieldNest Points on Curve Pools",
   "platformImageId": "imageforpointcampaing.png",
@@ -6,6 +7,7 @@
   "tags": ["points"],
   "pools": [
     {
+      "id": "null",
       "poolId": "yourinternalid",
       "campaignStart": "0",
       "campaignEnd": "1770000000",

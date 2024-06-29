@@ -1,11 +1,13 @@
 {
+  "campaignName": "Renzo",
   "platform": "Renzo Protocol",
-  "description": "Renzo protocol boosted pool",
+  "description": "Points for providing liquidity.",
   "platformImageId": "etherfi.png",
   "dashboardLink": "https://app.renzoprotocol.com/defi",
   "tags": ["points"],
   "pools": [
     {
+      "id": "null",
       "poolId": "factory-stable-ng-18",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
@@ -16,6 +18,7 @@
       "tags": "points"
     },
     {
+      "id": "null",
       "poolId": "factory-stable-ng-79",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
