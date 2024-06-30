@@ -32,13 +32,11 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
 - `campaignName`: Name of the reward campaign
 - `platform`: Name of the platform
 - `description`: One-sentence description, not too long
-- `imageId`: Filename of the app/tool's logo in the [`curve-assets`](https://github.com/curvefi/curve-assets/tree/main/platforms) repo
+- `platformImageId`: Filename of the app/tool's logo in the [`curve-assets`](https://github.com/curvefi/curve-assets/tree/main/platforms) repo
 - "dashboardLink": Link to protocol dashboard
-- `networks`: Array of relevant networks
 - pools: Array of relevant pools/markets
-
   - `id`: Internal id for you, or `null`
-  - `poolId`: Curve pool/market id (found in curve.fi url)
+  - `poolId`: Curve pool/market id (found in pool/market url on curve.fi or lend.curve.fi)
   - `campaignStart`: Start of the rewards, as utc timestamp
   - `campaignEnd`: End of the rewards, as utc timestamp
   - "poolAddress": Address of the pool/market

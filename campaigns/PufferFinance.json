@@ -2,7 +2,7 @@
   "campaignName": "Puffer Finance",
   "platform": "Puffer Finance",
   "description": "Points for providing liquidity.",
-  "platformImageId": "puffer.png",
+  "platformImageId": "puffer-finance.png",
   "dashboardLink": "https://quest.puffer.fi/defi",
   "pools": [
     {
