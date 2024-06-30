@@ -13,9 +13,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x0",
       "gaugeAddress": "0x0",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "1",
-      "tag": "points"
+      "tags": ["points"]
     }
   ]
 }

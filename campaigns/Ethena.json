@@ -12,9 +12,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xf8db2accdef8e7a26b0e65c3980adc8ce11671a4",
       "gaugeAddress": "0x0",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -23,9 +23,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x02950460e2b9529d0e00284a5fa2d7bdf3fa4d72",
       "gaugeAddress": "0x04e80db3f84873e4132b221831af1045d27f140f",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -34,9 +34,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xf36a4ba50c603204c3fc6d2da8b78a7b69cbc67d",
       "gaugeAddress": "0xf16b07241bbbf676324fadee6bd6611423faa4ae",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -45,9 +45,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xf55b0f6f2da5ffddb104b58a60f2862745960442",
       "gaugeAddress": "0xaa8b8643a29cecb5de7b4ea115d04384c041423f",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -56,9 +56,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x5dc1bf6f1e983c0b21efb003c105133736fa0743",
       "gaugeAddress": "0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -67,9 +67,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x670a72e6d22b0956c0d2573288f82dcc5d6e3a61",
       "gaugeAddress": "0x8ed00833be7342608fafdbf776a696afbfeaae96",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -78,9 +78,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x1c34204fcfe5314dcf53be2671c02c35db58b4e3",
       "gaugeAddress": "0x0",
-      "network": ["arbitrum"],
+      "network": "arbitrum",
       "multiplier": "30",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -89,9 +89,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xc687141c18f20f7ba405e45328825579fddd3195",
       "gaugeAddress": "0xeaed59025d6cf575238a9b4905aca11e000baad0",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "20",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -100,9 +100,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x4a7999c55d3a93daf72ea112985e57c2e3b9e95d",
       "gaugeAddress": "0xae1680ef5efc2486e73d8d5d0f8a8db77da5774e",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "5",
-      "tag": "points"
+      "tags": ["points"]
     }
   ]
 }

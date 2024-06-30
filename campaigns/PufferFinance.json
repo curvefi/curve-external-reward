@@ -7,14 +7,14 @@
   "pools": [
     {
       "id": "null",
-      "poolId": "factory-stable-ng-80",
+      "poolId": "factory-stable-ng-83",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
       "poolAddress": "0x278cfb6f06b1efc09d34fc7127d6060c61d629db",
       "gaugeAddress": "0x0bfb387b87e8bf173a10a7dcf786b0b7875f6771",
-      "network": ["ethereum"],
-      "multiplier": "2",
-      "tag": "points"
+      "network": "ethereum",
+      "multiplier": "1",
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -23,9 +23,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x39f5b252de249790faed0c2f05abead56d2088e1",
       "gaugeAddress": "0x0",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "2",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -34,9 +34,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xeeda34a377dd0ca676b9511ee1324974fa8d980d",
       "gaugeAddress": "0xf4fa0c7833e778fb9fb392ec36217e17c9133976",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "2",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -45,9 +45,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xff467c6e827ebbea64da1ab0425021e6c89fbe0d",
       "gaugeAddress": "0x294280254e1c8bcf56f8618623ec9235e8415633",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "2",
-      "tag": "points"
+      "tags": ["points"]
     }
   ]
 }

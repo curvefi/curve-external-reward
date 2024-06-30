@@ -64,7 +64,7 @@ Only Campaings listed in [`campaign-list.json`](https://github.com/curvefi/curve
       "campaignEnd": "0",
       "poolAddress": "0x0",
       "gaugeAddress": "0x0",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "1x",
       "tags": ["points"]
     }

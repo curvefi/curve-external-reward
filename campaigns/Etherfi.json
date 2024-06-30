@@ -12,9 +12,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0x278cfb6f06b1efc09d34fc7127d6060c61d629db",
       "gaugeAddress": "0x0bfb387b87e8bf173a10a7dcf786b0b7875f6771",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "2",
-      "tag": "points"
+      "tags": ["points"]
     },
     {
       "id": "null",
@@ -23,9 +23,9 @@
       "campaignEnd": "1770000000",
       "poolAddress": "0xdb74dfdd3bb46be8ce6c33dc9d82777bcfc3ded5",
       "gaugeAddress": "0x053df3e4d0ced9a3bf0494f97e83ce1f13bdc0e2",
-      "network": ["ethereum"],
+      "network": "ethereum",
       "multiplier": "3",
-      "tag": "points"
+      "tags": ["points"]
     }
   ]
 }
