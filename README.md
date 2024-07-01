@@ -2,8 +2,6 @@
 
 This repository's configuration files contain all metadata for projects to give external rewards for users of curve.
 
-# This is currently a draft for a possible data structure, this not production ready!
-
 ## Reward metadata structure
 
 ### Active and Upcomming Campaigns
