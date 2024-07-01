@@ -2,7 +2,7 @@
   "campaignName": "Renzo",
   "platform": "Renzo Protocol",
   "description": "Points for providing liquidity.",
-  "platformImageId": "etherfi.png",
+  "platformImageId": "renzo.png",
   "dashboardLink": "https://app.renzoprotocol.com/defi",
   "pools": [
     {
