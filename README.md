@@ -4,7 +4,7 @@ This repository's configuration files contain all metadata for projects to give 
 
 ## Reward metadata structure
 
-### Active and Upcomming Campaigns
+### Active and Upcoming Campaigns
 
 Only Campaigns listed in [`campaign-list.json`](https://github.com/curvefi/curve-external-reward/blob/main/campaign-list.json), and if date is between start and end are shown in the front end.
 
