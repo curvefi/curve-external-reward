@@ -10,8 +10,8 @@
       "poolId": "factory-stable-ng-83",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
-      "poolAddress": "0x278cfb6f06b1efc09d34fc7127d6060c61d629db",
-      "gaugeAddress": "0x0bfb387b87e8bf173a10a7dcf786b0b7875f6771",
+      "poolAddress": "0xb3c8ce1ee157b0dcaa96897c9170aee6281706c9",
+      "gaugeAddress": "0xb6ec26a3433d6cd11084c2094f12c4e571806d06",
       "network": "ethereum",
       "multiplier": "1",
       "tags": ["points"]
