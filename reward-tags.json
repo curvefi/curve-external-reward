@@ -4,10 +4,6 @@
     "displayName": "Points"
   }, 
   {
-    "id": "merkle",
-    "displayName": "Merkle"
-  }, 
-  {
     "id": "tokens",
     "displayName": "Tokens"
   }
