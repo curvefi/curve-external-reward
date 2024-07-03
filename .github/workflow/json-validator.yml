@@ -1,0 +1,24 @@
+name: Validation
+
+on:
+  push:
+    branches:
+      - master
+      - json-valid
+
+jobs:
+  validate-config:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: validate
+      uses: ammarlakis/action-ajv@master
+      with:
+        schema: schemas/account.schema.json
+        data: accounts/*.yml
+        allErrors: true
+
+            
