@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: JSON Validation
-      uses: ammarlakis/action-ajv@v1.0.0
+        uses: ammarlakis/action-ajv@v1.0.0
         
       - name: Run a one-line script
         run: echo Hello, world!
