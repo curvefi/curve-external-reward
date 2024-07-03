@@ -26,6 +26,6 @@
       "network": "ethereum",
       "multiplier": "3",
       "tags": ["points"]
-    },
-  ]}
+    }
+  ]
 }
