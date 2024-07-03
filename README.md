@@ -27,16 +27,16 @@ Only Campaigns listed in [`campaign-list.json`](https://github.com/curvefi/curve
 
 ### Each single campaign file in the folder `campaigns` must have the following properties:
 
-- `campaignName`: Name of the reward campaign
-- `platform`: Name of the platform
+- `campaignName`: Name of the rewards campaign, or `null`
+- `platform`: Name of the platform running the campaign
 - `description`: One-sentence description, not too long
 - `platformImageId`: Filename of the app/tool's logo in the [`curve-assets`](https://github.com/curvefi/curve-assets/tree/main/platforms) repo
 - `dashboardLink`: Link to protocol dashboard
 - pools: Array of relevant pools/markets
   - `id`: Internal id for you, or `null`
   - `poolId`: Curve pool/market id (found in pool/market url on curve.fi or lend.curve.fi)
-  - `campaignStart`: Start of the rewards, as utc timestamp
-  - `campaignEnd`: End of the rewards, as utc timestamp
+  - `campaignStart`: Start of the rewards, as UTC timestamp
+  - `campaignEnd`: End of the rewards, as UTC timestamp
   - `poolAddress`: Address of the pool/market
   - `gaugeAddress`: Address of the gauge, or `null`
   - `network`: Network of the pool/market
