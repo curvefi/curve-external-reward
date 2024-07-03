@@ -1,0 +1,42 @@
+{
+  "campaignName": "Superfest",
+  "platform": "Curve Finance",
+  "description": "OP rewards for providing liquidity.",
+  "platformImageId": "superfest.png",
+  "dashboardLink": "https://jumper.exchange/superfest/",
+  "pools": [
+    {
+      "id": "null",
+      "poolId": "factory-tricrypto-1",
+      "campaignStart": "1720022400",
+      "campaignEnd": "1720627200",
+      "poolAddress": "0xa0d3911349e701a1f49c1ba2dda34b4ce9636569",
+      "gaugeAddress": "0x8882eb84d0c4894753c0450f2d514e39883c0c82",
+      "network": "fraxtal",
+      "multiplier": "0",
+      "tags": ["tokens"]
+    },
+    {
+      "id": "null",
+      "poolId": "factory-tricrypto-0",
+      "campaignStart": "1720022400",
+      "campaignEnd": "1720627200",
+      "poolAddress": "0xf593ae314749d0c92b450f0a13e7e1791f352bb7",
+      "gaugeAddress": "0x9ccc509a5b4869bac6be86e79ea00c25942852f4",
+      "network": "fraxtal",
+      "multiplier": "0",
+      "tags": ["tokens"]
+    },
+    {
+      "id": "null",
+      "poolId": "factory-stable-ng-0",
+      "campaignStart": "1720022400",
+      "campaignEnd": "1720627200",
+      "poolAddress": "0x63eb7846642630456707c3efbb50a03c79b89d81",
+      "gaugeAddress": "0x98a6c35546be6f7c545c99efb48f4673ed2c99fc",
+      "network": "fraxtal",
+      "multiplier": "0",
+      "tags": ["tokens"]
+    }
+  ]
+}
