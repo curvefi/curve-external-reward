@@ -37,7 +37,7 @@ Only Campaigns listed in [`campaign-list.json`](https://github.com/curvefi/curve
   - `poolId`: Curve pool/market id (found in pool/market url on curve.fi or lend.curve.fi)
   - `campaignStart`: Start of the rewards, as UTC timestamp
   - `campaignEnd`: End of the rewards, as UTC timestamp
-  - `poolAddress`: Address of the pool/market
+  - `poolAddress`: Address of the pool/market (use address identified as `controller` for lending markets)
   - `gaugeAddress`: Address of the gauge, or `null`
   - `network`: Network of the pool/market
   - `multiplier`: Multiplier, or `null`

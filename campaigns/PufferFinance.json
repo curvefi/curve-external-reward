@@ -43,7 +43,7 @@
       "poolId": "one-way-market-10",
       "campaignStart": "0",
       "campaignEnd": "1770000000",
-      "poolAddress": "0xff467c6e827ebbea64da1ab0425021e6c89fbe0d",
+      "poolAddress": "0x4f87158350c296955966059c50263f711ce0817c",
       "gaugeAddress": "0x294280254e1c8bcf56f8618623ec9235e8415633",
       "network": "ethereum",
       "multiplier": "2",
