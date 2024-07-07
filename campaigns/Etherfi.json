@@ -26,6 +26,17 @@
       "network": "ethereum",
       "multiplier": "3",
       "tags": ["points"]
+    },
+    {
+      "id": "null",
+      "poolId": "factory-stable-ng-177",
+      "campaignStart": "0",
+      "campaignEnd": "1770000000",
+      "poolAddress": "0x6683eafe46cb9ed394f298e14b87ed680c17cedd",
+      "gaugeAddress": "0x0",
+      "network": "ethereum",
+      "multiplier": "2x",
+      "tags": ["points"]
     }
   ]
 }
