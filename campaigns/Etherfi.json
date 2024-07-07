@@ -35,7 +35,7 @@
       "poolAddress": "0x6683eafe46cb9ed394f298e14b87ed680c17cedd",
       "gaugeAddress": "0x0",
       "network": "ethereum",
-      "multiplier": "2x",
+      "multiplier": "2",
       "tags": ["points"]
     }
   ]
