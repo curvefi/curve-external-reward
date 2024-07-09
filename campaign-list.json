@@ -16,6 +16,15 @@
   },
   {
     "campaign": "DLCLink.json"
+  },
+  {
+    "campaign": "Eigenlayer.json"
+  },
+  {
+    "campaign": "Mellow.json"
+  },
+  {
+    "campaign": "Symbiotic.json"
   }
 ]
 
